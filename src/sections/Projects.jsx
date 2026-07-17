@@ -1,7 +1,4 @@
-<section
-  id="projects"
-  className="bg-white py-32"
-></section>
+import { Link } from "react-router-dom";
 import project1 from "../assets/images/project1.png";
 import project2 from "../assets/images/project2.png";
 import project3 from "../assets/images/project3.png";
@@ -43,7 +40,7 @@ function Projects() {
   ];
 
   return (
-    <section className="bg-white py-32">
+    <section id="projects" className="bg-white py-32">
       <div className="mx-auto max-w-7xl px-6">
 
         <div className="mb-20">
@@ -89,7 +86,7 @@ function Projects() {
 
               <div>
 
-                <p className="mb-3 uppercase tracking-[0.35em] text-sm text-gray-500">
+                <p className="mb-3 text-sm uppercase tracking-[0.35em] text-gray-500">
                   {project.category}
                 </p>
 
@@ -108,9 +105,12 @@ function Projects() {
                   improve the built environment.
                 </p>
 
-                <button className="mt-10 rounded-full border border-black px-8 py-4 transition hover:bg-black hover:text-white">
+                <Link
+                  to="/projects"
+                  className="mt-10 inline-block rounded-full border border-black px-8 py-4 transition hover:bg-black hover:text-white"
+                >
                   View Project →
-                </button>
+                </Link>
 
               </div>
 
