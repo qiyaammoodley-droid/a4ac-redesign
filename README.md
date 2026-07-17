@@ -1,52 +1,64 @@
 # A4AC Architects Redesign
 
+A modern redesign of the A4AC Architects website developed as part of the Melsoft Academy Frontend Development programme.
+
+## Live Demo
+
+https://a4ac-redesign.netlify.app/
+
+## GitHub Repository
+
+https://github.com/qiyaammoodley-droid/a4ac-redesign
+
+---
+
 ## Project Overview
 
-This project is a modern redesign of the A4AC Architects website developed as part of the Melsoft Academy Frontend Development programme.
-
-The website was built using React, Vite and Tailwind CSS with a focus on responsive design, clean architecture and reusable React components.
+This project redesigns the A4AC Architects website using a modern, responsive interface built with React, Vite and Tailwind CSS. The aim was to improve the user experience while showcasing the company's architectural services, projects and contact information through a clean and professional design.
 
 ---
 
 ## Features
 
-- Responsive Design
-- React Router Navigation
-- Reusable Components
-- Modern UI/UX
-- Projects Gallery
-- Services Page
-- Contact Page
-- Google Maps Integration
-- Interactive Navigation
+- Responsive design for desktop, tablet and mobile
+- React Router navigation
+- Modern hero section
+- About page
+- Projects gallery with interactive image modal
+- Services page
+- Contact page
+- Embedded Google Map
+- Modern UI built with Tailwind CSS
+- Reusable React components
 
 ---
 
-## Built With
+## Technologies Used
 
 - React
 - Vite
 - Tailwind CSS
 - React Router DOM
 - React Icons
+- JavaScript (ES6)
 
 ---
 
 ## Installation
 
-Clone the repository
+Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/a4ac-redesign.git
+git clone https://github.com/qiyaammoodley-droid/a4ac-redesign.git
 ```
 
-Install dependencies
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-Run the project
+Run the development server:
 
 ```bash
 npm run dev
@@ -54,7 +66,7 @@ npm run dev
 
 ---
 
-## Project Structure
+## Folder Structure
 
 ```text
 src/
@@ -68,18 +80,6 @@ src/
 ├── App.jsx
 └── main.jsx
 ```
-
----
-
-## Live Demo
-
-(Add your Netlify URL here)
-
----
-
-## GitHub Repository
-
-https://github.com/qiyaammoodley-droid/a4ac-redesign
 
 ---
 
